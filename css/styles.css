@@ -1,0 +1,161 @@
+body{
+    margin: 0%;
+    background-color: black;
+}
+.headernav{
+    display: flex;
+  justify-content: center;
+}
+.headernav a{
+    padding-top: 1.5%;
+    font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+    text-decoration: none;
+}
+h1 a{
+  color: #00ff00;
+
+}
+.headernav ul a{
+    color: #00ff00;
+    font-size: 110%;
+    font-weight: 600;
+}
+
+ul{
+    display: flex;
+    justify-content:space-around;
+    list-style-type: none;
+}
+li{
+    padding-left: 10%;
+}
+
+.block{
+    display: flex;
+    padding-left: 50%;
+    padding-top: 1.5%;
+}
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+  }
+
+  .hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #00ff00;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+
+  .hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+  .headernav img{
+      border-radius: 60%;
+  }
+
+  main{
+      text-align: center;
+      margin-top: 1%;
+      font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+
+  }
+
+  h1{
+    font-size: 400%;
+    color: #00ff00;
+  }
+
+  h2{
+    font-size: 300%;
+    color: #00ff00;
+  }
+  p{
+          color: #00ff00;
+          font-size: 20px;
+  }
+
+  .text-typing {
+    padding:20px 30px;
+    font-size:37px;
+
+    border-radius:50px;
+  }
+  .text-typing .h1head {
+    margin:0px;
+    white-space:nowrap;
+    overflow:hidden;
+    animation:typing 3s steps(22,end) forwards,
+              blink 1s infinite;
+  }
+  @keyframes typing {
+    0% { width:0% }
+    100% { width:100% }
+  }
+  @keyframes blink {
+    0%,100% {
+      border-right:2px solid transparent;
+    }
+    50% {
+      border-right:2px solid #00ff00;
+    }
+  }
+
+  .fade{
+    -webkit-animation: fade 6s both;
+    animation: fade 6s both;
+}
+
+@keyframes fade{
+    0%{
+        opacity: 0;
+
+    }
+    100%{
+        opacity: 1;
+    }
+
+}
+
+.section{
+    margin-top: 13%;
+    margin-bottom: 15%;
+}
+
+h1 a:hover{
+  color: white;
+}
+
+ul a:hover{
+  color: white;
+}
+
+.sectionp{
+  padding-bottom: 5%;
+}
+
+span a{
+  text-decoration: none;
+}
+
+footer *{
+  color: #00ff00;
+  text-decoration: none;
+  margin-left: 0%;
+  padding-left: 0%;
+  margin-bottom: 1%;
+  font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+}
+
+footer{
+  text-align: center;
+}
